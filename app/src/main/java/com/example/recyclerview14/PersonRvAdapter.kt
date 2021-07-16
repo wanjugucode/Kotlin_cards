@@ -38,16 +38,7 @@ class PersonRvAdapter(var personList: List<Person> ,var context:Context):Recycle
      intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
      context.startActivity(intent)
 }
-//holder.ivContact.setOnClickListener {
-//    var intent=Intent(context,ContactDetailsActivity::class.java)
-//    intent.putExtra("Name",currentPerson.name)
-//    intent.putExtra("phoneNumber",currentPerson.phoneNumber)
-//    intent.putExtra("email",currentPerson.emailAddress)
-//    intent.putExtra("imageUrl",currentPerson.imageUrl)
-//    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
-//    context.startActivity(intent)
-//    Toast.makeText(context,"you have clicked on my face",Toast.LENGTH_LONG).show()
-//}
+
     }
 
     override fun getItemCount(): Int {
