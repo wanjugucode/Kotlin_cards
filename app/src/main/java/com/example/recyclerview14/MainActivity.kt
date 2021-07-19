@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
     }
     fun peopleInformation(){
         var personList= listOf<Person>(
+            Person("Laban Maina","0716297144","laban@gmail.com","https://images.unsplash.com/photo-1534759846116-5799c33ce22a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGFmcmljYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),
             Person("Anastasia","0710708505","karobianastasia@gmail.com","https://images.unsplash.com/photo-1530785602389-07594beb8b73?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGJsYWNrJTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),
             Person("Ann ","0722527828","karobiaann@gmail.com","https://images.unsplash.com/photo-1511185307590-3c29c11275ca?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGFmcmljYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),
             Person("Nelson","0706929496","rubuinelson@gmail.com","https://images.unsplash.com/photo-1611693196679-c1f358840cc6?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGFmcmljYXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"),
