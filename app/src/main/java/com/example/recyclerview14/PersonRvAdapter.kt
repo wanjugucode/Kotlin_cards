@@ -16,6 +16,7 @@ class PersonRvAdapter(var personList: List<Person> ,var context:Context):Recycle
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PersonViewHolder {
         val itemView=LayoutInflater.from(parent.context).inflate(R.layout.person_list_item,parent,false)
         return PersonViewHolder(itemView)
+        
 
     }
 
@@ -26,9 +27,9 @@ class PersonRvAdapter(var personList: List<Person> ,var context:Context):Recycle
         holder.tvEmailAddress.text=currentPerson.emailAddress
         Picasso.get()
             .load(currentPerson.imageUrl)
-//            .resize(80,80)
-//            .centerCrop()
-//            .placeholder(R.drawable.placeholder)
+            .resize(80,80)
+            .centerCrop()
+            .placeholder(R.drawable.placeholder)
             .into(holder.ivContact)
  holder.cvContact.setOnClickListener{
     val intent=Intent(context,ContactDetailsActivity::class.java)
