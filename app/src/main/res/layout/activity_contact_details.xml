@@ -90,4 +90,16 @@
         app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/ic_baseline_camera_alt_24" />
 
+    <ImageView
+        android:id="@+id/ivGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/imgContact"
+        app:layout_constraintEnd_toEndOf="@+id/imgContact"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintStart_toStartOf="@+id/imgContact"
+        app:layout_constraintTop_toTopOf="@+id/imgContact"
+        app:layout_constraintVertical_bias="0.898"
+        app:srcCompat="@drawable/ic_baseline_insert_photo_24" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
